@@ -7,7 +7,7 @@ import seaborn as sns
 sns.set_style("whitegrid")
 
 # Load dataset
-df = pd.read_csv("dashboard/main_data.csv")
+df = pd.read_csv("main_data.csv")
 
 # Sidebar for title and additional settings
 st.sidebar.title("Dashboard Peminjaman Sepeda")
