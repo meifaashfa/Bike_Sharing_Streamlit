@@ -8,7 +8,7 @@ from datetime import datetime
 sns.set_style("whitegrid")
 
 # Load dataset
-df = pd.read_csv("dashboard/main_data.csv", parse_dates=['dteday'])
+df = pd.read_csv("main_data.csv", parse_dates=['dteday'])
 
 # ========== SIDEBAR ==========
 st.sidebar.title("Dashboard Peminjaman Sepeda")
